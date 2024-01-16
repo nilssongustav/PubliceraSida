@@ -26,3 +26,11 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+
+// Dark mode
+function darkmode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }

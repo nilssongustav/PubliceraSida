@@ -1,16 +1,23 @@
 
-body{
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+  }
+  
+  .dark-mode {
     background-color: black;
-}
+    color: black;
+  }
 header{
-    background-color: darkslategray;
+    background-color: #299292;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-        
+    border-radius: 10px;
 }
 h1,footer{
-    color: white;
+    color: black;
     text-align: center;
     margin: 30px;
 }
@@ -46,7 +53,7 @@ img{
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: rgb(255, 116, 223);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -62,7 +69,7 @@ img{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #299292;
 }
 
 /* Caption text */
@@ -98,13 +105,13 @@ img{
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #2a2a2a;
 }
 
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 @keyframes fade {
